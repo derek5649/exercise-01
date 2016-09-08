@@ -5,7 +5,7 @@ function convertTemperature (celsius) {
     
     // Do not modify the code above.
     // Convert Celcius to Fahrenheit below. Fahrenheit = (Celcius * 9/5) + 32
-        fahrenheit = (celsius * 9/5) + 32;
+        
     
     // Do not modify the code below.
     return fahrenheit
