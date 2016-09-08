@@ -1,5 +1,8 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400i';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
+
 html {
     color: #222;
     font-size: 1em;
@@ -56,8 +59,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-style: italic;
+    color:  #6A8C96;
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+p.weather-cloud {
+    font-size: 60px;
+     color:  #6A8C96;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
+.converter {
+    max-width: 600px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
 
 
 
